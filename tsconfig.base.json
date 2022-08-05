@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@full-stack/data-access-db": ["libs/data-access-db/src/index.ts"],
+      "@full-stack/generated/qr-db-types": [
+        "libs/generated/qr-db-types/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
